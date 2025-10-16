@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Vec2: Equatable, CustomStringConvertible {
+public struct Vec2: Sendable,Equatable, CustomStringConvertible {
     public var x: Double
     public var y: Double
 
